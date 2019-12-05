@@ -1,0 +1,74 @@
+html{
+  width:100%;
+  height:100%;
+
+}
+h1{
+  text-align:center;
+}
+
+body{
+
+  position: relative;
+  
+}
+h3, h2{
+  padding-top: none;
+  text-align:center;
+}
+p{
+  padding-top: none;
+}
+
+.rock-button{
+    cursor:pointer;
+}
+
+
+.paper-button{
+  cursor: pointer;background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.row{
+  display:flex;
+  justify-content: space-evenly;
+}
+.column{
+  padding: 5px;
+}
+
+.scoreBox{
+  position: absolute;
+  top: 5em;
+  right: 5em;
+  width: 300px;
+  border: 1px solid #ccc;
+  background: #999;
+}
+
+/* making my header cool */
+header {
+  position: relative;
+  height: 300px;
+  background-image: url(../img/rock-paper.jpg);
+  background-repeat: round;
+}
+svg {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+}
+
+@media (max-width: 699px) {
+  .svg--lg {
+    display: none;
+  }
+}
+
+@media (min-width: 700px) {
+  .svg--sm {
+    display: none;
+  }
+}
