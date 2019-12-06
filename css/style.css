@@ -68,13 +68,15 @@ p{
   top: 30em;
   right: 5em;
   width: 300px;
-  border: 1px solid #ccc;
-  background: #999;
+  border: 1px solid rgb(255, 255, 255);
+  background-image: url(../img/rps.jpg);
+  color:white;
 }
 
 .results{
   text-align: center;
   color: white;
+
 }
 
 /* making my header cool */
